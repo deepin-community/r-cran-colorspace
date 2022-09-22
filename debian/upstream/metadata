@@ -1,0 +1,10 @@
+Archive: CRAN
+Bug-Database: http://colorspace.R-Forge.R-project.org/contact.html
+Reference:
+  Author: Achim Zeileis and Kurt Hornik and Paul Murrell
+  Title: "Escaping RGBland: Selecting Colors for Statistical Graphics"
+  Journal: Computational Statistics & Data Analysis
+  Year: 2009
+  Volume: 53
+  Pages: 3259--3270
+  DOI: 10.1016/j.csda.2008.11.033

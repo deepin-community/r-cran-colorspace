@@ -1,0 +1,5 @@
+The data/USSouthPolygon.rda file contains county polygons for Alabama, Georgia,
+and South Carolina plus an artifical variable used for coloring. See
+man/USSouthPolygon.Rd for more details.
+
+ -- Sébastien Villemot <sebastien@debian.org>, Wed, 15 Nov 2017 13:01:10 +0100

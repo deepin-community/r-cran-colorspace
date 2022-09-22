@@ -1,0 +1,26 @@
+Source: r-cran-colorspace
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Section: gnu-r
+Testsuite: autopkgtest-pkg-r
+Priority: optional
+Build-Depends: debhelper-compat (= 13),
+               dh-r,
+               r-base-dev
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-colorspace
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-colorspace.git
+Homepage: https://cran.r-project.org/package=colorspace
+Rules-Requires-Root: no
+
+Package: r-cran-colorspace
+Architecture: any
+Depends: ${R:Depends},
+         ${shlibs:Depends},
+         ${misc:Depends}
+Recommends: ${R:Recommends}
+Suggests: ${R:Suggests}
+Description: GNU R Color Space Manipulation
+ Carries out mapping between assorted color spaces including RGB, HSV, HLS,
+ CIEXYZ, CIELUV, HCL (polar CIELUV), CIELAB and polar CIELAB. Qualitative,
+ sequential, and diverging color palettes based on HCL colors are provided.
